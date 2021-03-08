@@ -1,0 +1,10 @@
+Deploy sysinfo tool
+1. Copy it to a directory than is contained by PATH viariable. For example copy to /user/bin directory.
+    sudo cp ./sysinfo /user/bin/
+ 
+2. Set root own the sysinfo file.
+    sudo chown root:root /usr/bin/sysinfo
+    
+3. Change the sysinfo file's permission.
+    sudo chmod +x /user/bin/sysinfo
+    sudo chmod u+s /user/bin/sysinfo
