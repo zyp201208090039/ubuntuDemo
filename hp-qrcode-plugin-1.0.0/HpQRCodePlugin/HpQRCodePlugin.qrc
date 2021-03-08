@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/HpQRCodePlugin">
+        <file>images/loading.gif</file>
+        <file>images/error.png</file>
+    </qresource>
+</RCC>

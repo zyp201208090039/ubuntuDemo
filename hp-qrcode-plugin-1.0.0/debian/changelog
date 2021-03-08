@@ -1,0 +1,4 @@
+hp-qrcode-plugin (1.0.0-1) V101; urgency=medium
+
+  * 添加Hp插件,添加/usr/bin/sysinfo文件，并提权root权限
+ -- wangguixi <wangguixi@kylinos.cn>  Fri, 05 Mar 2021 11:41:19 +0800

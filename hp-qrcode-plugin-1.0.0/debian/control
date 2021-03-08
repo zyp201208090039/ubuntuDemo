@@ -1,0 +1,29 @@
+Source: hp-qrcode-plugin
+Section: utils
+Priority: optional
+Maintainer: wangguixi <wangguixi@kylinos.cn>
+Build-Depends: debhelper-compat (= 12),
+        libbamf3-dev,
+        qt5-qmake-bin,
+        qtbase5-dev,
+        qt5-qmake,
+        qt5-default,
+        libqt5svg5-dev,
+        libqt5x11extras5-dev,
+        libglib2.0-dev (>= 2.36),
+        libgsettings-qt-dev,
+        qttools5-dev-tools,
+        libbamf3-dev,
+        libxrandr-dev,
+        libxtst-dev,
+        libx11-dev
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/hp-qrcode-plugin
+#Vcs-Git: https://salsa.debian.org/debian/hp-qrcode-plugin.git
+
+Package: hp-qrcode-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
